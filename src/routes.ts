@@ -21,7 +21,7 @@ routes.delete('/crud/:id', remove)
 // ROUTES PRODUCTS
 routes.get('/products', getProduct)
 routes.get('/products/:id', getProductTwo)
-routes.post('products', saveNewProduct)
+routes.post('/products', saveNewProduct)
 routes.put('/products/:id', updateProducts)
 routes.patch('/products/:id', finnishedNewProduct)
 routes.delete('/products/:id', removeProduct)
