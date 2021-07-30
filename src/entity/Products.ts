@@ -13,6 +13,12 @@ export class Products {
     @Column()
     numberItens: number;
 
+    @Column()
+    Value: number;
+
+    @Column()
+    Price: number;
+
     @Column({
         default: false
     })
