@@ -10,6 +10,15 @@ export class Crud {
     @Column()
     description: string;
 
+    @Column()
+    numberItens: number;
+
+    @Column()
+    Value: number;
+
+    @Column()
+    Price: number;
+
     @Column({
         default: false
     })
